@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experiments | Spencience Research Portal</title>
+    <meta name="description" content="Explore our cutting-edge scientific experiments and research projects at Spencience Research Portal. Discover breakthroughs in quantum computing, AI, and more.">
+    <meta name="keywords" content="scientific experiments, research projects, quantum computing, AI research, laboratory studies">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @keyframes gradientBg {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+        .gradient-animate {
+            background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+            background-size: 400% 400%;
+            animation: gradientBg 15s ease infinite;
+        }
+        .experiment-card:hover {
+            transform: translateY(-5px);
+            transition: transform 0.3s ease;
+        }
+    </style>
+</head>
+<body class="min-h-screen flex flex-col bg-gray-50">
+    <!-- Header section remains the same as template -->
+    <header class="gradient-animate text-white shadow-lg">
+        <!-- Header content as in template -->
+    </header>
+
+    <main class="flex-grow container mx-auto px-4 py-8">
+        <div class="bg-white rounded-lg shadow-md p-6">
+            <h1 class="text-4xl font-bold mb-8 text-gray-800">Current Experiments</h1>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Quantum Computing Experiment -->
+                <div class="experiment-card bg-gray-50 rounded-lg p-6 shadow-md hover:shadow-xl transition-all">
+                    <h2 class="text-2xl font-semibold mb-4 text-indigo-600">
+                        <a href="/generated-website-1734042079556/experiments/quantum-computing.html">Quantum State Manipulation</a>
+                    </h2>
+                    <p class="text-gray-600 mb-4">Exploring quantum entanglement and superposition states using our custom-built quantum processor.</p>
+                    <span class="inline-block bg-indigo-100 text-indigo-800 px-3 py-1 rounded-full text-sm">Active</span>
+                </div>
+
+                <!-- AI Research Experiment -->
+                <div class="experiment-card bg-gray-50 rounded-lg p-6 shadow-md hover:shadow-xl transition-all">
+                    <h2 class="text-2xl font-semibold mb-4 text-indigo-600">
+                        <a href="/generated-website-1734042079556/experiments/ai-consciousness.html">AI Consciousness Study</a>
+                    </h2>
+                    <p class="text-gray-600 mb-4">Investigating emergence of consciousness in advanced neural networks using novel testing methodologies.</p>
+                    <span class="inline-block bg-green-100 text-green-800 px-3 py-1 rounded-full text-sm">Recruiting Participants</span>
+                </div>
+
+                <!-- Biotech Experiment -->
+                <div class="experiment-card bg-gray-50 rounded-lg p-6 shadow-md hover:shadow-xl transition-all">
+                    <h2 class="text-2xl font-semibold mb-4 text-indigo-600">
+                        <a href="/generated-website-1734042079556/experiments/biotech-synthesis.html">Synthetic Biology Initiative</a>
+                    </h2>
+                    <p class="text-gray-600 mb-4">Creating sustainable biofuels through engineered microorganisms and advanced fermentation processes.</p>
+                    <span class="inline-block bg-yellow-100 text-yellow-800 px-3 py-1 rounded-full text-sm">Phase 2</span>
+                </div>
+            </div>
+
+            <div class="mt-12">
+                <h2 class="text-2xl font-bold mb-6 text-gray-800">Participate in Our Research</h2>
+                <div class="bg-indigo-50 p-6 rounded-lg">
+                    <p class="text-gray-700 mb-4">We're always looking for volunteers and participants for our experiments. Whether you're a researcher, student, or enthusiast, there might be an opportunity for you to contribute to cutting-edge science.</p>
+                    <a href="/generated-website-1734042079556/participate.html" class="inline-block bg-indigo-600 text-white px-6 py-2 rounded-lg hover:bg-indigo-700 transition-colors">Learn More</a>
+                </div>
+            </div>
+
+            <div class="mt-12">
+                <h2 class="text-2xl font-bold mb-6 text-gray-800">Recent Results</h2>
+                <div class="space-y-4">
+                    <div class="border-l-4 border-green-500 pl-4">
+                        <h3 class="text-lg font-semibold">
+                            <a href="/generated-website-1734042079556/results/quantum-teleportation.html">Quantum Teleportation Breakthrough</a>
+                        </h3>
+                        <p class="text-gray-600">Successfully achieved stable quantum state transfer across 100km fiber optic network.</p>
+                    </div>
+                    <div class="border-l-4 border-blue-500 pl-4">
+                        <h3 class="text-lg font-semibold">
+                            <a href="/generated-website-1734042079556/results/ai-pattern-recognition.html">AI Pattern Recognition Study</a>
+                        </h3>
+                        <p class="text-gray-600">New neural architecture shows 40% improvement in complex pattern recognition tasks.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-gray-800 text-white">
+        <!-- Footer content as in template -->
+    </footer>
+</body>
+</html>
